@@ -1,0 +1,109 @@
+.imgbg{
+    background-image: url("../img/IMG_6762.jpg");
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#personalInfo{
+    background: #F0F2F0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+a{
+    color: #ff5938;
+}
+
+.capitalized{
+    color:  #ff5938;
+}
+
+.header {
+    background-color: transparent;
+}
+
+.header-collapse {
+    transition: .8s ease;
+    background: #1e1835;
+}
+
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+
+.mb-2 {
+    margin-bottom: .5rem!important;
+}
+
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.08;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+}
+
+@media (min-width: 992px)
+.pt-lg-16, .py-lg-16 {
+    padding-top: 14rem!important;
+}
+@media (min-width: 992px)
+.pb-lg-14, .py-lg-14 {
+    padding-bottom: 10rem!important;
+}
+
+.pb-13, .py-13 {
+    padding-bottom: 7.2rem!important;
+}
+.pt-13, .py-13 {
+    padding-top: 28rem!important;
+}
+
+@media (min-width: 1200px)
+.offset-xl-1 {
+    margin-left: 8.33333%;
+}
+@media (min-width: 1200px)
+.col-xl-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+@media (min-width: 768px)
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
